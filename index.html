@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Trello</title>
+</head>
+
+<body>
+    <div id="back-drop"></div>
+    <div id="model">
+        <button class="close-model">X</button>
+        <div>
+            <h1 id="model-card-name">Card Name</h1>
+        </div>
+        <div class="checklist-container">
+            <div class="checklist-header">
+                <div>
+                    <h3>Checklist</h3>
+                </div>
+                <div>
+                    <button class="add-checklist" id="add-checklist-btn">+ Add Checklist</button>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter Checklist Name" class="input-checklist" id="input-add-checklist">
+                </div>
+            </div>
+            <ul id="checklist-items"></ul>
+        </div>
+    </div>
+
+    <div class="container" id="main-container"></div>
+    <script src="./script.js" type="module"></script>
+</body>
+
+</html>
